@@ -5,7 +5,6 @@ public class Task5 {
 
     public static int countStudents(int[] students, int[] samsas) {
         Queue<Integer> q = new LinkedList<>();
-
         for (int s : students) {
             q.offer(s);
         }

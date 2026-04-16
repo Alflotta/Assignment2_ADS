@@ -10,7 +10,6 @@ public class Task4 {
         insertAtBottom(stack, x);
         stack.push(temp);
     }
-
     static void reverse(Stack<Integer> stack) {
         if (stack.isEmpty()) return;
 

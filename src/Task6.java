@@ -7,7 +7,6 @@ public class Task6 {
         if (left < n && arr[left] < arr[smallest]) {
             smallest = left;
         }
-
         if (right < n && arr[right] < arr[smallest]) {
             smallest = right;
         }

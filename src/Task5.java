@@ -20,7 +20,6 @@ public class Task5 {
                 count++;
             }
         }
-
         return q.size();
     }
 

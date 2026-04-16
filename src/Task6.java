@@ -10,7 +10,6 @@ public class Task6 {
         if (right < n && arr[right] < arr[smallest]) {
             smallest = right;
         }
-
         if (smallest != i) {
             int temp = arr[i];
             arr[i] = arr[smallest];

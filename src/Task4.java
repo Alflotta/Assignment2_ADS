@@ -12,7 +12,6 @@ public class Task4 {
     }
     static void reverse(Stack<Integer> stack) {
         if (stack.isEmpty()) return;
-
         int top = stack.pop();
         reverse(stack);
         insertAtBottom(stack, top);
